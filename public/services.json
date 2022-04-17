@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Physical Activity",
+        "price": "100",
+        "description": "Physical Activity is one of the best things people can do to improve their health. It is vital for healthy aging and can reduce the burden of chronic diseases. For more information on why physical activity matters, what Health Coach is doing to educate the public about the benefits of physical activity.",
+        "img": "https://i.ibb.co/vYzVyjK/physical-activity.png"
+    },
+    {
+        "id": 2,
+        "name": "Support & Motivation",
+        "price": "150",
+        "description": "If you think too much about the pros and cons of exercising, you may well talk yourself out of it.Health Coach motivate you to Keep a training diary simply taking the time to recognise these little improvements to your daily quality of life can increase your motivation to exercise.",
+        "img": "https://i.ibb.co/WGndTK6/support-and-motivation.png"
+    },
+    {
+        "id": 3,
+        "name": "Exercise Program",
+        "price": "120",
+        "description": "Experts say there is no magic to exerciseYou get out of it what you put in. That doesn't mean you have to work out for hours each day. It just means you need to work smart.We provides many exercise programs-like : Interval training,Squats,Lunges,Push-ups,Abdominal Crunches,Bent-over Row etc.",
+        "img": "https://i.ibb.co/pZCwSxk/exercise-program.png"
+    },
+    {
+        "id": 4,
+        "name": "Balance Body Mind",
+        "price": "130",
+        "description": "Personal wholeness is the feeling of well-being that occurs when your body, mind, and spirit are in harmony and balance. You can develop mind-body practices that support well-being and recovery from illness.We will teach you how to balance your body and mind.",
+        "img": "https://i.ibb.co/nwBBhvL/balance-body-mind.png"
+    },
+    {
+        "id": 5,
+        "name": "Virtual Team Fitness Training",
+        "price": "105",
+        "description": "Rather you're not wanting to make the move to go back in person due to Covid-19, or feel more comfortable training in your home. We offer live online Team Training. Train with others like you from all over the world with workouts designed to get you feeling better and in the best shape of your life!",
+        "img": "https://i.ibb.co/5RDZS9K/virtual-team.png"
+    },
+    {
+        "id": 6,
+        "name": "Fitness and nutrition coaching",
+        "price": "150",
+        "description": "Having a nutrition coach provides accountability and gives you a direct line to someone to help keep you in check. The stress is mostly off of you. You don't have to worry bout whether you are eating too much or too little, that's your coaches job.",
+        "img": "https://i.ibb.co/5T14tkg/fitness-coaching.png"
+    }
+]
