@@ -1,8 +1,20 @@
 # Health Coach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Website Link :  [Health Coach](https://health-coach-6cb18.web.app/).
 
-## Available Scripts
+## This project I used :
+- google-firebase-authentication
+- react-firebase-hooks
+- react-router
+- react-bootstrap
+- gmail and password authentication
+- github authentication
+- custom active link
+- useNavigate hook
+- useRef hook
+- Require auth or protected route
+- etc
+
 
 In the project directory, you can run:
 
