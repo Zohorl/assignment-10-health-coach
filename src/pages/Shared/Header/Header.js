@@ -28,17 +28,15 @@ const Header = () => {
                         {/* <Nav.Link href='home#services'>Services</Nav.Link> */}
                         {/* <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link> */}
                         <CustomLink className="me-3 fs-5" to="/blogs">Blogs</CustomLink>
-                    </Nav>
-                    <Nav>
-                        {/* <Nav.Link as={Link} to="/about">About</Nav.Link> */}
+                        <CustomLink className="me-3 fs-5" to="/about">About</CustomLink>
 
                         {
                             user ?
                                 <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign out</button>
                                 :
-                                <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                                <CustomLink className="me-3 fs-5" to="/login">Login</CustomLink>
+                            // <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
-
                     </Nav>
 
                 </Navbar.Collapse>
