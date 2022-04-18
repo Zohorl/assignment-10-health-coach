@@ -25,17 +25,13 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <CustomLink className="me-3 fs-5" to="/services">Services</CustomLink>
-                        {/* <Nav.Link href='home#services'>Services</Nav.Link> */}
-                        {/* <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link> */}
                         <CustomLink className="me-3 fs-5" to="/blogs">Blogs</CustomLink>
                         <CustomLink className="me-3 fs-5" to="/about">About</CustomLink>
-
                         {
                             user ?
                                 <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign out</button>
                                 :
                                 <CustomLink className="me-3 fs-5" to="/login">Login</CustomLink>
-                            // <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
                     </Nav>
 

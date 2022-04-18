@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../../../Images/logo1.png';
+import logo from '../../../Images/footer-logo.png';
 import './Footer.css';
 
 const Footer = () => {
     const today = new Date();
     const year = today.getFullYear()
     return (
-        <div>
-            <p><small>Copyrights &copy; {year} All Rights Reserved , Powered By <span><img id='footer-logo' src={logo} alt="" /></span> </small></p>
+        <div className='bg-dark mt-5 py-5 px-2'>
+            <p><small className='text-white'>Copyrights &copy; {year} All Rights Reserved , Powered By  </small><span><img id='footer-logo' src={logo} alt="" /></span></p>
         </div>
     );
 };
